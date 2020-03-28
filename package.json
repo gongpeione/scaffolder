@@ -1,0 +1,40 @@
+{
+  "name": "scaffolder",
+  "version": "0.0.0",
+  "author": "Geeku @gongpeione",
+  "bin": {
+    "scaffolder": "./bin/run"
+  },
+  "bugs": "https://github.com/gongpeione/scaffolder/issues",
+  "dependencies": {
+    "commander": "^5.0.0",
+    "inquirer": "^7.1.0",
+    "nodegit": "^0.26.5",
+    "tslib": "^1.11.1"
+  },
+  "devDependencies": {
+    "@types/node": "^10.17.13",
+    "cross-env": "^7.0.2",
+    "eslint": "^5.16.0",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.7.4"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/lib"
+  ],
+  "homepage": "https://github.com/gongpeione/scaffolder",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "repository": "gongpeione/scaffolder",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development ./bin/run"
+  },
+  "types": "lib/index.d.ts"
+}

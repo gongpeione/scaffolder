@@ -1,2 +1,2 @@
-# scaffolder
-scaffold init
+scaffolder
+==========

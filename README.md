@@ -1,0 +1,2 @@
+# scaffolder
+scaffold init
